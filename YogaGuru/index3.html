@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign In Form</title>
+    <!--Now we can also create seperate style sheet and link it with this file-->
+    <link rel="stylesheet" href="style3.css">
+    <link href="https://fonts.googleapis.com/css2?family=Lexend:wght@400&display=swap" rel="stylesheet">
+
+</head>
+<body>
+
+    <!--Welcome Back Container-->
+    <div class="container">
+        <h2>Welcome Back!</h2>
+        <form action="/submit-your-form-handler" method="POST">
+            <div class="input-group">
+                <label for="name">Username</label>
+                <input type="text" id="name" name="name" required>
+            </div>
+            <div class="input-group">
+                <label for="password">Password</label>
+                <input type="password" id="password" name="password" required>
+            </div>
+            <button class="signup">SIGN IN</button>
+            <p class="divider">or</p>
+            <!--Social Media Buttons-->
+            <a href="https://www.freepnglogos.com/uploads/google-logo-png/google-logo-png-webinar-optimizing-for-success-google-business-webinar-13.png" alt="Google logo" style="vertical-align: middle;" class="icon-button google">
+                <img src="https://www.freepnglogos.com/uploads/google-logo-png/google-logo-png-webinar-optimizing-for-success-google-business-webinar-13.png" alt="Google logo" style="vertical-align: middle;" alt="Google">
+            </a>
+            <a href="https://upload.wikimedia.org/wikipedia/commons/thumb/0/05/Facebook_Logo_%282019%29.png/1024px-Facebook_Logo_%282019%29.png" class="icon-button facebook">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/05/Facebook_Logo_%282019%29.png/1024px-Facebook_Logo_%282019%29.png" alt="Facebook">
+            </a>
+        </form>
+    </div>
+
+    <!--CLOSE WINDOW-->
+    <a href="index.html">
+        <img src="https://www.freeiconspng.com/thumbs/close-icon/close-icon-48.png" alt="close" id="cross" />
+    </a>
+
+    <img src="images/Sign In Girl.png" alt="SignObj" id="signobj" />
+
+
+</body>
+</html>

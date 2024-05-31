@@ -1,0 +1,118 @@
+/* styles.css */
+body {
+    font-family: Lexend;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: white;
+}
+
+.container {
+    background: white;
+    padding: 40px;
+    border-radius: 0px;
+    /* box-shadow: 0 4px 8px rgba(0,0,0,0.1); */
+    width: 500px;
+    position: relative;
+    position:center;
+    left:250px;
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 40px;
+    position:relative;
+    top:5px;
+}
+
+.input-group {
+    margin-bottom: 20px;
+}
+
+input[type="text"], input[type="password"] {
+    position:center;
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.signup{
+    background-color:#E5ECFC; 
+    position:center;
+    width: 103%;
+    padding: 10px;
+    margin-top: 10px;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    font-size: 16px;
+    box-shadow: 0 8px 9px rgba(0,0,0,0.1);
+}
+
+.signup:hover{
+    box-shadow: 0 0 15px #8E97DD; /* Glowing effect on hover */
+    font-weight: bold;
+}
+
+.icon-button {
+    display: inline-block;
+    width: 40px; /* Set the size of the buttons */
+    height: 40px;
+    border-radius: 50%; /* Makes the button circular */
+    color: white;
+    text-align: center;
+    position:relative;
+    left:200px;
+    line-height: 40px; /* Centers the icon vertically */
+    margin: 5px; /* Space between buttons */
+    margin-top: 10px;
+}
+
+.icon-button img {
+    width: 40px; /* Size of the icon inside the button */
+    vertical-align: middle; /* Aligns the icon vertically in line with any text */
+}
+
+.google {
+    background-color: white; /* Red */
+    /* box-shadow: 0 8px 9px rgba(0,0,0,0.1); */
+}
+
+.facebook {
+    position:center;
+    background-color: white; /* Facebook blue */
+    /* box-shadow: 0 8px 9px rgba(0,0,0,0.1); */
+}
+
+
+.divider {
+    text-align: center;
+    margin: 20px 0;
+}
+
+.login-link {
+    font-size: 14px;
+    text-align: center;
+    margin-top: 10px;
+}
+
+#signobj{
+    position: absolute;
+    width: 400px;
+    height: 400px;
+    top: 100px;  /* Position from the top */
+    left: 80px;  /* Position from the left */
+}
+
+#cross{
+    position: absolute;
+    width: 15px;
+    height: 15px;
+    top: 20px;  /* Position from the top */
+    left: 1200px;
+}
